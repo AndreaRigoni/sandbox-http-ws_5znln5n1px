@@ -1,0 +1,21 @@
+{
+  "name": "websocket-http-server",
+  "version": "1.0.0",
+  "description": "Not WORKING YET",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "PORT=8080 node src/index.js",
+    "simple-http": "node src/http-server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "fs": "0.0.1-security",
+    "https-pem": "2.0.0",
+    "ws": "6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
